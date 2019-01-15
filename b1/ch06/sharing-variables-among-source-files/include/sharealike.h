@@ -1,5 +1,5 @@
-#ifndef SHAREALIKE_H_INCLUDED
-#define SHAREALIKE_H_INCLUDED
+#ifndef SHAREALIKE_H
+#define SHAREALIKE_H
 
 
 extern int DoubleCheeseburgers;
