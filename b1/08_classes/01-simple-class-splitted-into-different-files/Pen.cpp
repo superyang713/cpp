@@ -7,7 +7,7 @@ void Pen::write_on_paper(std::string words) {
   }
   else {
     std::cout << words << "\n";
-    InkLevelPrecent = InkLevelPrecent = words.length();
+    InkLevelPrecent = InkLevelPrecent - words.length();
   }
 }
 
