@@ -30,6 +30,15 @@ int main()
 
   FavoritePen.write_on_paper("Hello I am a pen");
   std::cout << "Ink Level: " << FavoritePen.InkLevelPrecent << "%" << "\n";
-        
+
+  Pen *myPen;
+  myPen = new Pen;
+
+  myPen->InkColor = red;
+  std::cout << myPen->InkColor << "\n";
+
+  delete myPen;
+  myPen = 0;
+  
   return 0;
 }
