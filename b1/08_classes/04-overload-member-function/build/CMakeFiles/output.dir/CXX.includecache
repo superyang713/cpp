@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/yang/Code/cpp_learn/b1/08_classes/04-overload-member-function/Class.cpp
+iostream
+-
+Class.h
+/Users/yang/Code/cpp_learn/b1/08_classes/04-overload-member-function/Class.h
+
+/Users/yang/Code/cpp_learn/b1/08_classes/04-overload-member-function/Class.h
+string
+-
+
+/Users/yang/Code/cpp_learn/b1/08_classes/04-overload-member-function/main.cpp
+Class.h
+/Users/yang/Code/cpp_learn/b1/08_classes/04-overload-member-function/Class.h
+
